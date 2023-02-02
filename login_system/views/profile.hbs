@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+{{> header }}
+<body>
+    {{> navbar }}
+
+    <div class="container-fluid">
+        <h2>User Profile</h2>
+        <img src="/assets/profile.png"/>
+        <h3>Name: {{user.NAME}}</h3>
+        <h3>Email: {{user.EMAIL}}</h3>
+        <h3>Age: {{user.AGE}}</h3>
+        <h3>DOB: {{user.DATE_OF_BIRTH}}</h3>
+        <h3>Contact: {{user.CONTACT}}</h3>
+    </div>
+</body>
+</html>
